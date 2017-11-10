@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { ItemTypes } from "../../constants";
+import { ItemTypes } from "../constants";
 
 class Card extends Component {
   render() {

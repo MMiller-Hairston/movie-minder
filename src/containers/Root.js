@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import { Card, GenreButton } from "../components";
 import { connect } from "react-redux";
-import { genres, determineGenre } from "../../utils";
-import api from "../../config";
-import { setResults } from "../../actions/appActions";
+import { genres, determineGenre } from "../utils";
+import api from "../config";
+import { setResults } from "../actions/appActions";
 
 class Root extends Component {
   search = genre => {
