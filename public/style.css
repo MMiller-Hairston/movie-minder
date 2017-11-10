@@ -1,0 +1,31 @@
+body {
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Raleway'
+}
+
+.movie-db {
+    height: 40px;
+    vertical-align: "center"
+}
+
+.root {
+    margin: 0 auto;
+}
+
+.disclaimer {
+    background-color: #081c24;
+    color: white;
+    text-align: center;
+    margin: 0px auto 10px;
+    padding: 10px 0;
+}
+
+.disclaimer a {
+    color: #01d277;
+    text-decoration: none;
+}
+
+.disclaimer img {
+    vertical-align: middle;
+}
