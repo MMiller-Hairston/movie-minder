@@ -1,11 +1,10 @@
+import { getRandomIndex } from "../utils"
 import {
     SET_RESULTS
 } from "../actions/appActions"
 
 export const initialState = {
-  query: "",
   results: [],
-  saved: []
 };
 
 export default function(state = initialState, { type, payload }) {
@@ -13,7 +12,7 @@ export default function(state = initialState, { type, payload }) {
     case SET_RESULTS:
       return {
         ...state,
-        results: payload.results
+        results: getRandomIndex(payload.results)
       };
     default:
       return state;

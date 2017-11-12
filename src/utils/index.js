@@ -57,3 +57,7 @@ export const determineGenre = genre => {
       return 10752;
   }
 };
+
+export function getRandomIndex(list) {
+  return list[Math.floor(Math.random() * list.length)];
+}
