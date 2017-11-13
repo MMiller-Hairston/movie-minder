@@ -1,11 +1,10 @@
 body {
     margin: 0 auto;
-    text-align: center;
     font-family: 'Raleway'
 }
 
 .movie-db {
-    height: 40px;
+    height: 30px;
     vertical-align: "center"
 }
 
@@ -17,7 +16,7 @@ body {
     background-color: #081c24;
     color: white;
     text-align: center;
-    margin: 0px auto 10px;
+    margin: 0px auto;
     padding: 10px 0;
 }
 

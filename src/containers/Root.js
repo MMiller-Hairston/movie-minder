@@ -48,7 +48,7 @@ class Root extends Component {
             );
           })}
         </div>
-        <div style={{ marginTop: 20 }}>
+        <div>
           {this.state.movie !== null && <Card data={this.state.movie} />}
         </div>
       </div>
